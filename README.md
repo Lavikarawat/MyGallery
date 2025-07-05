@@ -59,13 +59,6 @@ VirtualArtGallery/
 
 ---
 
-## 🙋‍♀️ Developer
-
-**Hiwa Tari**  
-Frontend Developer Intern | Passionate about UI, creativity, and elegant digital experiences  
-📎 [My Portfolio](https://your-portfolio-link.com)
-
----
 
 ## 🔖 License
 
