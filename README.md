@@ -22,8 +22,10 @@ This project was developed as part of a Frontend Development Internship assignme
 
 This gallery features royalty-safe, classical artworks such as:
 
-- *Mona Lisa* by Leonardo da Vinci  
-- *The Last Supper* by Leonardo da Vinci  
+- *Mona Lisa* by Leonardo da Vinci
+- *Shakuntala by Raja Ravi Varma
+- *The Last Supper* by Leonardo da Vinci
+- *Ajanta Cave Mural
 - *The Birth of Venus* by Sandro Botticelli  
 - *Girl with a Pearl Earring* by Johannes Vermeer  
 - *Las Meninas* by Diego Velázquez  
