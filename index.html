@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+
+        <a href="https://lavika-portfolio.netlify.app/" class="signature" rel="noopener" target="_blank"
+            title="Visit my portfolio">
+            LR
+        </a>
+
+        <h1>Virtual Art Gallery</h1>
+
+        <nav>
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+            <button id="musicToggle">🔇 Music</button>
+        </nav>
+
+    </header>
+
+    <main id="gallery">
+        <div class="artwork active"
+            data-info="The Mona Lisa, painted by Leonardo da Vinci, is a renowned portrait of a woman with an enigmatic smile. It's considered an archetypal masterpiece of the Italian Renaissance, and is the most famous, visited, and written-about work of art in the world. The painting's enduring appeal lies in its technical brilliance, particularly da Vinci's use of sfumato and atmospheric perspective, as well as the mystery surrounding the sitter's identity and expression. ">
+            <img src="mona-lisa.jpg" alt="Mona Lisa" />
+            <div class="info">
+                <h2>Mona Lisa</h2>
+                <p>Leonardo da Vinci</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info="The Last Supper refers to the final meal Jesus shared with his apostles before his crucifixion, as described in the New Testament. It's a significant event in Christian tradition, commemorated especially on Holy Thursday, and forms the basis for the Eucharist, or Holy Communion. The event is famously depicted in Leonardo da Vinci's mural, 'The Last Supper', which portrays the emotional reactions of the disciples to Jesus announcement that one of them would betray him. ">
+            <img src="the-last-supper.jpg" alt="The Last Supper" />
+            <div class="info">
+                <h2>The Last Supper</h2>
+                <p>Leonardo da Vinci</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info=" 'The Birth of Venus', a renowned painting by Sandro Botticelli, depicts the mythological birth of the goddess Venus (also known as Aphrodite). It portrays her emerging from the sea on a scallop shell, carried to shore by the wind gods Zephyr and Aura, and being greeted by a woman representing the Hora of spring, who is ready to clothe her. The painting is celebrated for its depiction of idealized beauty, classical mythology, and its innovative use of the nude form in Renaissance art. ">
+            <img src="the-birth-of-venus.jpg" alt="The Birth of Venus" />
+            <div class="info">
+                <h2>The Birth of Venus</h2>
+                <p>Sandro Botticelli</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info="Painted by Dutch artist Johannes Vermeer, this mysterious portrait captures a young girl with an exotic dress and a large pearl earring, often called the 'Mona Lisa of the North'.'Girl with a Pearl Earring' created around 1665, and is a captivating example of a 'tronie', not a formal portrait, depicting an imaginary young woman. The painting, notable for its striking use of light and shadow, features a young woman wearing an exotic turban and a large, luminous pearl earring, which has become iconic. The painting is housed in the Mauritshuis museum in The Hague. ">
+            <img src="girlpearl.jpg" alt="Girl with a Pearl Earring" />
+            <div class="info">
+                <h2>Girl with a Pearl Earring</h2>
+                <p>Johannes Vermeer</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info=" 'Las Meninas,'' painted by Diego Velázquez in 1656, is a complex and enigmatic masterpiece that has captivated viewers for centuries. The painting, housed in the Museo del Prado in Madrid, depicts a scene in the Spanish royal palace, featuring the Infanta Margarita and her entourage, including maids of honor ('meninas'), two court dwarfs, and a dog. Velázquez himself is also depicted in the act of painting, adding another layer of intrigue to the composition. ">
+            <img src="las.jpg" alt="Las Meninas" />
+            <div class="info">
+                <h2>Las Meninas</h2>
+                <p>Diego Velázquez</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info=" 'Napoleon Crossing the Alps' refers to a series of five paintings by Jacques-Louis David, depicting Napoleon Bonaparte leading his troops across the Alps. The paintings, created between 1801 and 1805, are highly idealized portrayals of Napoleon's crossing of the Great St Bernard Pass during his campaign in Italy. While the paintings are famous for their dramatic and heroic depiction of Napoleon, they are known to be a romanticized view of the actual event. ">
+            <img src="napoleon.jpg" alt="Napoleon Crossing the Alps" />
+            <div class="info">
+                <h2>Napoleon Crossing the Alps</h2>
+                <p>Jacques-Louis David</p>
+            </div>
+        </div>
+
+        <div class="artwork"
+            data-info=" 'The Fighting Temeraire' is a famous painting by J.M.W. Turner, depicting the HMS Temeraire, a British warship, being towed up the River Thames to be broken up for scrap. The painting, completed in 1838, is celebrated for its dramatic depiction of technological change and the end of an era of naval power. It's widely regarded as one of Turner's masterpieces and a national treasure, currently residing in the National Gallery, London. ">
+            <img src="fighting.jpg" alt="The Fighting Temeraire" />
+            <div class="info">
+                <h2>The Fighting Temeraire</h2>
+                <p>J.M.W. Turner</p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <div id="popup" class="hidden">
+        <div class="popup-content">
+            <span id="closePopup">&times;</span>
+            <p id="popupText"></p>
+        </div>
+    </div>
+
+    <div id="messagePopup" class="message-popup">
+        <p>💡 Double click the painting to read about it</p>
+    </div>
+
+
+    <footer class="signature-footer">
+        Designed & Developed by <a href="https://your-portfolio-link.com" rel="noopener" target="_blank">Lavika Rawat</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
